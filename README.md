@@ -1,4 +1,5 @@
 Technologies Used:
+
 Frontend: React, Axios
 Backend: Node.js, Express, MongoDB, Mongoose, JWT
 Development: Nodemon
@@ -32,14 +33,17 @@ npm install bcrypt jsonwebtoken
 Verify Installation: After installing the packages, verify that they are added to your package.json file by checking its content. You can also verify the installation by running your project and ensuring that there are no errors related to missing modules.
 
 Struture of the project:
+
 frontend: Contains the frontend React code.
-          *src: Contains the source code files.
-              *components: Contains React components.
-                          *Home: Displays user profile information.
-                          *Login: Handles user login functionality.
-                          *Register: Handles user registration functionality.
-         *App.js: Main application component.
+
+           *src: Contains the source code files.
+               *components: Contains React components.
+                           *Home: Displays user profile information.
+                           *Login: Handles user login functionality.
+                           *Register: Handles user registration functionality.
+           *App.js: Main application component.
 *public: Contains public assets and index.html file.
+
 backend: Contains backend server files.
          *index.js: Entry point for the backend server.
 
