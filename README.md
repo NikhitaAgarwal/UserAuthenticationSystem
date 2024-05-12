@@ -32,6 +32,13 @@ Install Additional Packages: Depending on your project requirements, you may nee
 npm install bcrypt jsonwebtoken
 Verify Installation: After installing the packages, verify that they are added to your package.json file by checking its content. You can also verify the installation by running your project and ensuring that there are no errors related to missing modules.
 
+Instruction:
+Input Validation:
+
+Ensure email format is correct.
+Verify password length is at least 6 characters.
+
+
 Struture of the project:
 
 frontend: Contains the frontend React code.
@@ -77,6 +84,22 @@ Finally, the frontend code receives the response and updates the user interface 
 Overall, this flow ensures seamless communication between the frontend and backend components of a MERN stack application, enabling users to interact with the application effectively.
 
 Overview Of Project:
+
+ Register Page
+![Register](https://github.com/NikhitaAgarwal/UserAuthenticationSystem/assets/96190789/1675cf8c-7a38-4dc4-8327-67dccffab780)
+
+Login Page:
+
+![login](https://github.com/NikhitaAgarwal/UserAuthenticationSystem/assets/96190789/f3be3730-ca5f-4acf-8718-fb65f22e05f0)
+
+
+![Screenshot (149)](https://github.com/NikhitaAgarwal/UserAuthenticationSystem/assets/96190789/5e651005-dc95-4a89-9219-76e176549e37)
+
+Home Page
+
+![Homepage](https://github.com/NikhitaAgarwal/UserAuthenticationSystem/assets/96190789/e2caf137-5453-4bcd-939b-741c446474e4)
+
+ 
 
 
 
