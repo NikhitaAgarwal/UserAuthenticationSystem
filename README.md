@@ -31,7 +31,7 @@ Development: Nodemon
 
 **Initialize npm**: Run **npm init -y** to initialize a new Node.js project with default settings. This will create a package.json file in your project directory.
 
-*8Install Required Packages**: Use npm to install the necessary packages. For Express, Mongoose, Axios, and other packages, you can run the following commands:
+**Install Required Packages**: Use npm to install the necessary packages. For Express, Mongoose, Axios, and other packages, you can run the following commands:
 **npm install express mongoose axios**
 
 This command will install Express, Mongoose, and Axios packages and add them to your package.json file as dependencies.
@@ -51,16 +51,24 @@ Verify password length is at least 6 characters.
 
 ### Struture of the project:
 
-**Frontend**: Contains the frontend React code.
-           -src: Contains the source code files.
-                     -components: Contains React components.
+**Frontend**: Contains the frontend React code.  
+
+           -src: Contains the source code files.  
+           
+                     -components: Contains React components.  
+                     
                                -Home: Displays user profile information.[ADD Home.js and Home.css in Home folder]
                                -Login: Handles user login functionality.[ADD login.js and login.css in login folder]
-                               -Register: Handles user registration functionality.[ADD register.js and register.css in register folder]
-                     -App.js: Main application component.\
-                     -App.css:The CSS file associated with the main application component. It contains styles that are specific to the overall layout and design of the application.\
-                     -index.js:This file is the entry point of the React application. It renders the root component (App) into the DOM.\
-                     -index.css:The global CSS file for the entire application. It contains styles that are applied globally across all components in the application.\
+                               -Register: Handles user registration functionality.[ADD register.js and register.css in register folder]  
+                               
+                     -App.js: Main application component.  
+                     
+                     -App.css:The CSS file associated with the main application component. It contains styles that are specific to the overall layout and design of the application.  
+                     
+                     -index.js:This file is the entry point of the React application. It renders the root component (App) into the DOM.  
+                     
+                     -index.css:The global CSS file for the entire application. It contains styles that are applied globally across all components in the application.  
+                     
           -public: Contains public assets and index.html file.
 
 **backend**: Contains backend server files.
@@ -92,6 +100,7 @@ nodemon: A development tool that automatically restarts the server when changes 
 **Server Processing**: The backend server receives the data, processes it (like checking if the email format is correct or if the password is long enough), and saves it to a database if everything is okay.\
 **Response Generation**: After processing the data, the backend server sends a response back to the frontend, indicating whether the operation was successful or if there was an error.\
 If the login is successful, the website will display the user's information, such as their name and email address.\
+
 
 ### Overview Of Project:
 
