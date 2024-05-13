@@ -1,0 +1,4 @@
+Creata 3 Folder Home,login ang register 
+1)Add the home.js and Home.css file in Home folder
+2)Add the login.js and login.css file in login folder
+3)Add the register.js and register.css file in register folder
