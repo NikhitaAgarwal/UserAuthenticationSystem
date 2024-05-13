@@ -4,8 +4,10 @@
 
 **Technologies Used**:
 
-Frontend: React, Axios
-Backend: Node.js, Express, MongoDB, Mongoose, JWT
+Frontend: React, Axios\
+
+Backend: Node.js, Express, MongoDB, Mongoose, JWT\
+
 Development: Nodemon
 
 ### SetUp
