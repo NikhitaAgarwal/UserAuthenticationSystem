@@ -11,10 +11,14 @@ Development: Nodemon
 ### SetUp
 **Frontend Setup:**
 
-**Clone the Repository**: Use git clone <repository-url> to clone the repository.
-**Navigate to the Frontend Directory**: Move to the frontend directory using cd frontend.
-**Install Dependencies**: Run **npm install** to install project dependencies.
-**Install React Router DOM**: Use **npm install react-router-dom** to install React Router DOM.
+**Clone the Repository**: Use git clone <repository-url> to clone the repository.  
+
+**Navigate to the Frontend Directory**: Move to the frontend directory using cd frontend.  
+
+**Install Dependencies**: Run **npm install** to install project dependencies.  
+
+**Install React Router DOM**: Use **npm install react-router-dom** to install React Router DOM.  
+
 **Start the Frontend Server**: Begin the frontend server with **npm start**.
 
 **Backend Setup:**
@@ -34,13 +38,15 @@ This command will install Express, Mongoose, and Axios packages and add them to 
 
 **Install Additional Packages**: Depending on your project requirements, you may need to install other packages. For example, if you're using bcrypt for password hashing or JWT for authentication, you can install them as follows:
 **npm install bcrypt jsonwebtoken**
-Verify Installation: After installing the packages, verify that they are added to your package.json file by checking its content. You can also verify the installation by running your project and ensuring that there are no errors related to missing modules.
+**Verify Installation**: After installing the packages, verify that they are added to your package.json file by checking its content. You can also verify the installation by running your project and ensuring that there are no errors related to missing modules.
 
 ### Instruction:
 
 Input Validation:
-Ensure email format is correct.
-Verify password length is at least 6 characters.
+Ensure email format is correct.  
+
+Verify password length is at least 6 characters.  
+
 
 
 ### Struture of the project:
