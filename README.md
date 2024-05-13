@@ -1,6 +1,6 @@
-**Create a folder Frontend - Add all the folder and files which are in the Forntend folder.
+# Create a folder **Frontend** - Add all the folder and files which are in the Forntend folder.
 
-Create a folder as backend - Add the other remaining files and folder in it.**
+# Create a folder as **backend** - Add the other remaining files and folder in it.
 
 Technologies Used:
 
